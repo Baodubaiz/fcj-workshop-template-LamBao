@@ -16,11 +16,11 @@ pre: " <b> 1.2. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Cấu hình các quy tắc Spring Security và tắt trạng thái session (xác thực stateless).<br>- Triển khai BCryptPasswordEncoder để mã hóa mật khẩu bảo mật. | 18/08/2025 | 18/08/2025 | <https://spring.io/projects/spring-security> |
-| 3   | - Triển khai các lớp User Entity, Repository và Service để lưu trữ dữ liệu người dùng.<br>- Thiết lập logic User details và tải thông tin người dùng. | 19/08/2025 | 19/08/2025 |  |
-| 4   | - Tạo lớp tiện ích JWT Provider để tạo, phân tích cú pháp và xác thực mã JWT.<br>- Thêm cấu hình thời hạn hết hạn và ký khóa bí mật. | 20/08/2025 | 20/08/2025 | <https://jwt.io/introduction> |
-| 5   | - Triển khai các endpoint Controller cho Đăng nhập và Đăng ký.<br>- Viết các DTO cho yêu cầu và phản hồi xác thực. | 21/08/2025 | 21/08/2025 |  |
-| 6   | - Tích hợp giao diện trang Đăng nhập và Đăng ký trên Next.js Frontend.<br>- Thử nghiệm gọi API đăng nhập và lưu trữ token. | 22/08/2025 | 22/08/2025 |  |
+| 2   | - Cấu hình các quy tắc Spring Security và tắt trạng thái session (xác thực stateless).<br>- Triển khai BCryptPasswordEncoder để mã hóa mật khẩu bảo mật. | 22/04/2025 | 22/04/2025 | <https://spring.io/projects/spring-security> |
+| 3   | - Triển khai các lớp User Entity, Repository và Service để lưu trữ dữ liệu người dùng.<br>- Thiết lập logic User details và tải thông tin người dùng. | 23/04/2025 | 23/04/2025 |  |
+| 4   | - Tạo lớp tiện ích JWT Provider để tạo, phân tích cú pháp và xác thực mã JWT.<br>- Thêm cấu hình thời hạn hết hạn và ký khóa bí mật. | 24/04/2025 | 24/04/2025 | <https://jwt.io/introduction> |
+| 5   | - Triển khai các endpoint Controller cho Đăng nhập và Đăng ký.<br>- Viết các DTO cho yêu cầu và phản hồi xác thực. | 25/04/2025 | 25/04/2025 |  |
+| 6   | - Tích hợp giao diện trang Đăng nhập và Đăng ký trên Next.js Frontend.<br>- Thử nghiệm gọi API đăng nhập và lưu trữ token. | 26/04/2025 | 26/04/2025 |  |
 
 
 ### Kết quả đạt được tuần 2:

@@ -17,10 +17,10 @@ pre: " <b> 1.9. </b> "
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
 | 2   | - Setup local RabbitMQ/Kafka server.<br>- Add AMQP configuration and setup exchange/queue bindings in Spring Boot. | 10/06/2025 | 10/06/2025 | <https://www.rabbitmq.com/documentation.html> |
-| 3   | - Implement message publisher that sends email tasks to queue on events (user registration, order confirmation). | 10/07/2025 | 10/07/2025 | <https://spring.io/guides/gs/messaging-rabbitmq/> |
-| 4   | - Write asynchronous email consumer that picks up messages and sends actual emails using JavaMailSender. | 10/08/2025 | 10/08/2025 |  |
-| 5   | - Design Voucher entities (percentage and fixed-amount discounts) and database schema. | 10/09/2025 | 10/09/2025 |  |
-| 6   | - Implement validation and discount calculation services (expiry checks, min spend, voucher code usage counts). | 10/10/2025 | 10/10/2025 |  |
+| 3   | - Implement message publisher that sends email tasks to queue on events (user registration, order confirmation). | 11/06/2025 | 11/06/2025 | <https://spring.io/guides/gs/messaging-rabbitmq/> |
+| 4   | - Write asynchronous email consumer that picks up messages and sends actual emails using JavaMailSender. | 12/06/2025 | 12/06/2025 |  |
+| 5   | - Design Voucher entities (percentage and fixed-amount discounts) and database schema. | 13/06/2025 | 13/06/2025 |  |
+| 6   | - Implement validation and discount calculation services (expiry checks, min spend, voucher code usage counts). | 14/06/2025 | 14/06/2025 |  |
 
 
 ### Week 9 Achievements:

@@ -16,11 +16,11 @@ pre: " <b> 1.8. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Nghiên cứu khái niệm PostgreSQL Full-text Search, TSQuery, TSVector và chỉ mục GIN (Generalized Inverted Index). | 29/09/2025 | 29/09/2025 | <https://www.postgresql.org/docs/current/textsearch.html> |
-| 3   | - Cấu hình chỉ mục GIN trên tên sản phẩm, mô tả và các thuộc tính biến thể. | 30/09/2025 | 30/09/2025 |  |
-| 4   | - Xây dựng Dynamic Search Specification trong Spring Boot để ghép nối các bộ lọc theo thông số (CPU, RAM, giá, thương hiệu). | 01/10/2025 | 01/10/2025 | <https://spring.io/blog/2011/04/26/advanced-spring-data-jpa-specifications-and-querydsl/> |
-| 5   | - Tích hợp API tìm kiếm và lọc trên giao diện Next.js catalog với tính năng gợi ý tự động. | 02/10/2025 | 02/10/2025 |  |
-| 6   | - Phân tích hiệu năng truy vấn tìm kiếm và xem kế hoạch thực thi SQL (execution plan) để đảm bảo index hoạt động. | 03/10/2025 | 03/10/2025 |  |
+| 2   | - Nghiên cứu khái niệm PostgreSQL Full-text Search, TSQuery, TSVector và chỉ mục GIN (Generalized Inverted Index). | 03/06/2025 | 03/06/2025 | <https://www.postgresql.org/docs/current/textsearch.html> |
+| 3   | - Cấu hình chỉ mục GIN trên tên sản phẩm, mô tả và các thuộc tính biến thể. | 04/06/2025 | 04/06/2025 |  |
+| 4   | - Xây dựng Dynamic Search Specification trong Spring Boot để ghép nối các bộ lọc theo thông số (CPU, RAM, giá, thương hiệu). | 05/06/2025 | 05/06/2025 | <https://spring.io/blog/2011/04/26/advanced-spring-data-jpa-specifications-and-querydsl/> |
+| 5   | - Tích hợp API tìm kiếm và lọc trên giao diện Next.js catalog với tính năng gợi ý tự động. | 06/06/2025 | 06/06/2025 |  |
+| 6   | - Phân tích hiệu năng truy vấn tìm kiếm và xem kế hoạch thực thi SQL (execution plan) để đảm bảo index hoạt động. | 07/06/2025 | 07/06/2025 |  |
 
 
 ### Kết quả đạt được tuần 8:

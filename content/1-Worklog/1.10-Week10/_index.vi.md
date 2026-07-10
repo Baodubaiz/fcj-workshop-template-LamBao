@@ -16,11 +16,11 @@ pre: " <b> 1.10. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Tối ưu hóa các Dockerfile sẵn có, giảm kích thước ảnh build bằng multi-stage build và ảnh nền alpine/distroless. | 13/10/2025 | 13/10/2025 | <https://docs.docker.com/compose/> |
-| 3   | - Viết file `docker-compose.yml` thống nhất định nghĩa các dịch vụ: `novatech-fe`, `novatech-be`, `postgresql-db`, `redis-cache` và `rabbitmq-queue`. | 14/10/2025 | 14/10/2025 | <https://docs.docker.com/develop/develop-images/multistage-build/> |
-| 4   | - Cấu hình mạng nội bộ docker (networks) và các biến môi trường kết nối nội bộ giữa các container. | 15/10/2025 | 15/10/2025 |  |
-| 5   | - Cấu hình các Docker Volumes để lưu trữ lâu dài cho dữ liệu PostgreSQL, dữ liệu Redis và RabbitMQ. | 16/10/2025 | 16/10/2025 |  |
-| 6   | - Chạy lệnh `docker compose up --build` ở local và thực hiện kiểm thử xác minh toàn diện mọi lớp ứng dụng. | 17/10/2025 | 17/10/2025 |  |
+| 2   | - Tối ưu hóa các Dockerfile sẵn có, giảm kích thước ảnh build bằng multi-stage build và ảnh nền alpine/distroless. | 17/06/2025 | 17/06/2025 | <https://docs.docker.com/compose/> |
+| 3   | - Viết file `docker-compose.yml` thống nhất định nghĩa các dịch vụ: `novatech-fe`, `novatech-be`, `postgresql-db`, `redis-cache` và `rabbitmq-queue`. | 18/06/2025 | 18/06/2025 | <https://docs.docker.com/develop/develop-images/multistage-build/> |
+| 4   | - Cấu hình mạng nội bộ docker (networks) và các biến môi trường kết nối nội bộ giữa các container. | 19/06/2025 | 19/06/2025 |  |
+| 5   | - Cấu hình các Docker Volumes để lưu trữ lâu dài cho dữ liệu PostgreSQL, dữ liệu Redis và RabbitMQ. | 20/06/2025 | 20/06/2025 |  |
+| 6   | - Chạy lệnh `docker compose up --build` ở local và thực hiện kiểm thử xác minh toàn diện mọi lớp ứng dụng. | 21/06/2025 | 21/06/2025 |  |
 
 
 ### Kết quả đạt được tuần 10:

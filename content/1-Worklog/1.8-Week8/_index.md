@@ -16,11 +16,11 @@ pre: " <b> 1.8. </b> "
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Study PostgreSQL Full-text Search concepts, TSQuery, TSVector, and GIN (Generalized Inverted Index) index type. | 09/29/2025 | 09/29/2025 | <https://www.postgresql.org/docs/current/textsearch.html> |
-| 3   | - Configure GIN indexes on Product names, descriptions, and variant attributes. | 09/30/2025 | 09/30/2025 |  |
-| 4   | - Build Dynamic Search Specification in Spring Boot to construct filters matching specs (CPU, RAM, price, brand). | 10/01/2025 | 10/01/2025 | <https://spring.io/blog/2011/04/26/advanced-spring-data-jpa-specifications-and-querydsl/> |
-| 5   | - Integrate search and filtering APIs on the Next.js catalog interface with search auto-suggestions. | 10/02/2025 | 10/02/2025 |  |
-| 6   | - Profile search query performance and analyze SQL execution plans to ensure database indexing is used. | 10/03/2025 | 10/03/2025 |  |
+| 2   | - Study PostgreSQL Full-text Search concepts, TSQuery, TSVector, and GIN (Generalized Inverted Index) index type. | 03/06/2025 | 03/06/2025 | <https://www.postgresql.org/docs/current/textsearch.html> |
+| 3   | - Configure GIN indexes on Product names, descriptions, and variant attributes. | 04/06/2025 | 04/06/2025 |  |
+| 4   | - Build Dynamic Search Specification in Spring Boot to construct filters matching specs (CPU, RAM, price, brand). | 05/06/2025 | 05/06/2025 | <https://spring.io/blog/2011/04/26/advanced-spring-data-jpa-specifications-and-querydsl/> |
+| 5   | - Integrate search and filtering APIs on the Next.js catalog interface with search auto-suggestions. | 06/06/2025 | 06/06/2025 |  |
+| 6   | - Profile search query performance and analyze SQL execution plans to ensure database indexing is used. | 07/06/2025 | 07/06/2025 |  |
 
 
 ### Week 8 Achievements:

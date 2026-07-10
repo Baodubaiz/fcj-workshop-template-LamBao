@@ -16,11 +16,11 @@ pre: " <b> 1.4. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Thiết kế các bảng cơ sở dữ liệu cho Product, ProductVariant, Attribute và AttributeValue.<br>- Thiết lập các ánh xạ JPA (One-to-Many, Many-to-Many). | 01/09/2025 | 01/09/2025 | <https://hibernate.org/orm/documentation/> |
-| 3   | - Triển khai Soft Delete bằng cách thêm cột `is_deleted` và ghi đè hoạt động xóa của Hibernate bằng `@SQLDelete`. | 02/09/2025 | 02/09/2025 |  |
-| 4   | - Tạo các lớp controller, service và repository cho ProductVariant.<br>- Thực hiện các thao tác CRUD cho biến thể sản phẩm. | 03/09/2025 | 03/09/2025 |  |
-| 5   | - Xây dựng các endpoint API để tạo sản phẩm phức tạp bao gồm nhiều thuộc tính và biến thể (ví dụ: cấu hình RAM, ổ cứng của laptop). | 04/09/2025 | 04/09/2025 |  |
-| 6   | - Tạo trang giao diện quản trị sản phẩm trên Next.js frontend để cho phép admin quản lý sản phẩm và biến thể. | 05/09/2025 | 05/09/2025 |  |
+| 2   | - Thiết kế các bảng cơ sở dữ liệu cho Product, ProductVariant, Attribute và AttributeValue.<br>- Thiết lập các ánh xạ JPA (One-to-Many, Many-to-Many). | 06/05/2025 | 06/05/2025 | <https://hibernate.org/orm/documentation/> |
+| 3   | - Triển khai Soft Delete bằng cách thêm cột `is_deleted` và ghi đè hoạt động xóa của Hibernate bằng `@SQLDelete`. | 07/05/2025 | 07/05/2025 |  |
+| 4   | - Tạo các lớp controller, service và repository cho ProductVariant.<br>- Thực hiện các thao tác CRUD cho biến thể sản phẩm. | 08/05/2025 | 08/05/2025 |  |
+| 5   | - Xây dựng các endpoint API để tạo sản phẩm phức tạp bao gồm nhiều thuộc tính và biến thể (ví dụ: cấu hình RAM, ổ cứng của laptop). | 09/05/2025 | 09/05/2025 |  |
+| 6   | - Tạo trang giao diện quản trị sản phẩm trên Next.js frontend để cho phép admin quản lý sản phẩm và biến thể. | 10/05/2025 | 10/05/2025 |  |
 
 
 ### Kết quả đạt được tuần 4:

@@ -29,3 +29,17 @@ During my internship, I participated in two events. Each one was a memorable exp
 **Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
 
 **Role:** Attendee
+
+---
+
+## [Event 3](4.3-Event3/)
+
+**Event Name:** AWS: Enterprise Cloud Architectures and Industry Application featuring Cloud Kinetics & Renova Cloud
+
+**Date & Time:** 09:00, July 4, 2026
+
+**Location:** Online
+
+**Role:** Attendee
+
+---

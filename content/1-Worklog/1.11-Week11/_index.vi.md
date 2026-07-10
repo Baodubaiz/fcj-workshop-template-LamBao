@@ -16,11 +16,11 @@ pre: " <b> 1.11. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Viết file cấu hình GitHub Actions (`.github/workflows/frontend-ci.yml`) kích hoạt khi commit vào nhánh main. | 20/10/2025 | 20/10/2025 | <https://docs.github.com/en/actions> |
-| 3   | - Cấu hình kiểm tra cú pháp (lint), kiểm tra biên dịch Next.js và đóng gói Docker image trên GitHub Actions. | 21/10/2025 | 21/10/2025 | <https://docs.gitlab.com/ee/ci/> |
-| 4   | - Thiết lập cấu hình GitLab CI/CD (`.gitlab-ci.yml`) cho dự án backend. | 22/10/2025 | 22/10/2025 |  |
-| 5   | - Thêm các bước biên dịch file JAR, chạy unit test và build Spring Boot Docker image thông qua GitLab runner. | 23/10/2025 | 23/10/2025 |  |
-| 6   | - Tích hợp tự động đẩy (push) image lên Docker Hub hoặc Registry riêng bằng cách sử dụng secret key bảo mật. | 24/10/2025 | 24/10/2025 |  |
+| 2   | - Viết file cấu hình GitHub Actions (`.github/workflows/frontend-ci.yml`) kích hoạt khi commit vào nhánh main. | 24/06/2025 | 24/06/2025 | <https://docs.github.com/en/actions> |
+| 3   | - Cấu hình kiểm tra cú pháp (lint), kiểm tra biên dịch Next.js và đóng gói Docker image trên GitHub Actions. | 25/06/2025 | 25/06/2025 | <https://docs.gitlab.com/ee/ci/> |
+| 4   | - Thiết lập cấu hình GitLab CI/CD (`.gitlab-ci.yml`) cho dự án backend. | 26/06/2025 | 26/06/2025 |  |
+| 5   | - Thêm các bước biên dịch file JAR, chạy unit test và build Spring Boot Docker image thông qua GitLab runner. | 27/06/2025 | 27/06/2025 |  |
+| 6   | - Tích hợp tự động đẩy (push) image lên Docker Hub hoặc Registry riêng bằng cách sử dụng secret key bảo mật. | 28/06/2025 | 28/06/2025 |  |
 
 
 ### Kết quả đạt được tuần 11:

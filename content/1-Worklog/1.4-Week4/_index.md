@@ -17,11 +17,11 @@ pre: " <b> 1.4. </b> "
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Design database tables for Product, ProductVariant, Attribute, and AttributeValue.<br>- Establish JPA mappings (One-to-Many, Many-to-Many). | 09/01/2025 | 09/01/2025 | <https://hibernate.org/orm/documentation/> |
-| 3   | - Implement Soft Delete by introducing an `is_deleted` column and overriding Hibernate delete operations using `@SQLDelete`. | 09/02/2025 | 09/02/2025 |  |
-| 4   | - Create ProductVariant controller, service, and repository layers.<br>- Implement CRUD operations for product variants. | 09/03/2025 | 09/03/2025 |  |
-| 5   | - Build API endpoints for complex product creation including multiple attributes and variants (e.g. laptop RAM, storage configurations). | 09/04/2025 | 09/04/2025 |  |
-| 6   | - Create the product administration UI page on Next.js frontend to allow admins to manage products and variants. | 09/05/2025 | 09/05/2025 |  |
+| 2   | - Design database tables for Product, ProductVariant, Attribute, and AttributeValue.<br>- Establish JPA mappings (One-to-Many, Many-to-Many). | 06/05/2025 | 06/05/2025 | <https://hibernate.org/orm/documentation/> |
+| 3   | - Implement Soft Delete by introducing an `is_deleted` column and overriding Hibernate delete operations using `@SQLDelete`. | 07/05/2025 | 07/05/2025 |  |
+| 4   | - Create ProductVariant controller, service, and repository layers.<br>- Implement CRUD operations for product variants. | 08/05/2025 | 08/05/2025 |  |
+| 5   | - Build API endpoints for complex product creation including multiple attributes and variants (e.g. laptop RAM, storage configurations). | 09/05/2025 | 09/05/2025 |  |
+| 6   | - Create the product administration UI page on Next.js frontend to allow admins to manage products and variants. | 10/05/2025 | 10/05/2025 |  |
 
 
 ### Week 4 Achievements:

@@ -29,3 +29,15 @@ Trong quá trình thực tập, em đã tham gia 2 events, với mỗi event là
 **Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
 
 **Vai trò:** Người tham dự
+
+---
+
+## [Event 3](4.3-Event3/)
+
+**Tên sự kiện:** AWS: Enterprise Cloud Architectures and Industry Application featuring Cloud Kinetics & Renova Cloud
+
+**Thời gian:** 09:00 ngày 4/07/2026
+
+**Địa điểm:** Online
+
+**Vai trò:** Người tham dự

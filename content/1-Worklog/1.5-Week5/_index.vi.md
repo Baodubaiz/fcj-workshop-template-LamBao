@@ -16,11 +16,11 @@ pre: " <b> 1.5. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Thiết kế thực thể Cart và CartItem, ánh xạ quan hệ với User.<br>- Tạo các API REST để thêm, cập nhật và xóa sản phẩm khỏi giỏ hàng. | 08/09/2025 | 08/09/2025 |  |
-| 3   | - Triển khai logic giỏ hàng ở Next.js sử dụng Local Storage dành cho khách truy cập vãng lai. | 09/09/2025 | 09/09/2025 | <https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage> |
-| 4   | - Viết logic đồng bộ ở Next.js và Spring Boot để gộp các mặt hàng trong Local Storage vào giỏ hàng DB của người dùng sau khi đăng nhập. | 10/09/2025 | 10/09/2025 |  |
-| 5   | - Viết một script python crawl dữ liệu hoặc script batch seed ở backend để nhập các mẫu laptop thực tế (Dell, Mac, Asus) vào DB. | 11/09/2025 | 11/09/2025 | <https://spring.io/guides/gs/batch-processing/> |
-| 6   | - Kiểm thử luồng đồng bộ giỏ hàng từ đầu đến cuối và giải quyết các trường hợp xung đột (ví dụ: sản phẩm đã tồn tại ở cả hai nơi). | 12/09/2025 | 12/09/2025 |  |
+| 2   | - Thiết kế thực thể Cart và CartItem, ánh xạ quan hệ với User.<br>- Tạo các API REST để thêm, cập nhật và xóa sản phẩm khỏi giỏ hàng. | 13/05/2025 | 13/05/2025 |  |
+| 3   | - Triển khai logic giỏ hàng ở Next.js sử dụng Local Storage dành cho khách truy cập vãng lai. | 14/05/2025 | 14/05/2025 | <https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage> |
+| 4   | - Viết logic đồng bộ ở Next.js và Spring Boot để gộp các mặt hàng trong Local Storage vào giỏ hàng DB của người dùng sau khi đăng nhập. | 15/05/2025 | 15/05/2025 |  |
+| 5   | - Viết một script python crawl dữ liệu hoặc script batch seed ở backend để nhập các mẫu laptop thực tế (Dell, Mac, Asus) vào DB. | 16/05/2025 | 16/05/2025 | <https://spring.io/guides/gs/batch-processing/> |
+| 6   | - Kiểm thử luồng đồng bộ giỏ hàng từ đầu đến cuối và giải quyết các trường hợp xung đột (ví dụ: sản phẩm đã tồn tại ở cả hai nơi). | 17/05/2025 | 17/05/2025 |  |
 
 
 ### Kết quả đạt được tuần 5:

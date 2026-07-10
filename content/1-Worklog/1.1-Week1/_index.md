@@ -16,11 +16,11 @@ pre: " <b> 1.1. </b> "
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Project Kickoff: Analyze system requirements and design the overall architectural blueprint.<br>- Define database entity relations and design PostgreSQL schema. | 08/11/2025 | 08/11/2025 |  |
-| 3   | - Initialize Spring Boot project with Maven/Gradle.<br>- Implement the standard 11-layer directory structure (Controller, Service, Repository, DTO, Mapper, Entity, etc.). | 08/12/2025 | 08/12/2025 | <https://spring.io/projects/spring-boot> |
-| 4   | - Integrate Swagger/OpenAPI for automatic API documentation.<br>- Create health check endpoints and test Swagger UI access. | 08/13/2025 | 08/13/2025 | <https://swagger.io/specification/> |
-| 5   | - Initialize Next.js project using App Router, TypeScript, and basic CSS styling config.<br>- Define directory structures for components, pages, and services. | 08/14/2025 | 08/14/2025 | <https://nextjs.org/docs> |
-| 6   | - Connect Spring Boot backend to PostgreSQL database.<br>- Run basic integration test to verify the database connection and schema initialization. | 08/15/2025 | 08/15/2025 | <https://www.postgresql.org/docs/> |
+| 2   | - Project Kickoff: Analyze system requirements and design the overall architectural blueprint.<br>- Define database entity relations and design PostgreSQL schema. | 15/04/2025 | 15/04/2025 |  |
+| 3   | - Initialize Spring Boot project with Maven/Gradle.<br>- Implement the standard 11-layer directory structure (Controller, Service, Repository, DTO, Mapper, Entity, etc.). | 16/04/2025 | 16/04/2025 | <https://spring.io/projects/spring-boot> |
+| 4   | - Integrate Swagger/OpenAPI for automatic API documentation.<br>- Create health check endpoints and test Swagger UI access. | 17/04/2025 | 17/04/2025 | <https://swagger.io/specification/> |
+| 5   | - Initialize Next.js project using App Router, TypeScript, and basic CSS styling config.<br>- Define directory structures for components, pages, and services. | 18/04/2025 | 18/04/2025 | <https://nextjs.org/docs> |
+| 6   | - Connect Spring Boot backend to PostgreSQL database.<br>- Run basic integration test to verify the database connection and schema initialization. | 19/04/2025 | 19/04/2025 | <https://www.postgresql.org/docs/> |
 
 
 ### Week 1 Achievements:

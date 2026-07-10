@@ -15,11 +15,11 @@ pre: " <b> 1.7. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Chạy thực thể Redis ở local.<br>- Thêm các dependency Spring Boot Data Redis starter và cấu hình thuộc tính kết nối. | 22/09/2025 | 22/09/2025 | <https://redis.io/docs/> |
-| 3   | - Triển khai cache Redis cho API danh sách danh mục sản phẩm bằng `@Cacheable` và cấu hình xóa cache (`@CacheEvict`) khi cập nhật danh mục. | 23/09/2025 | 23/09/2025 | <https://spring.io/guides/gs/caching/> |
-| 4   | - Triển khai lưu trữ tạm thời mã OTP trong Redis, áp dụng TTL 5 phút cho việc xác thực mã. | 24/09/2025 | 24/09/2025 |  |
-| 5   | - Chuyển việc lưu trữ danh sách session hoạt động hoặc token bị thu hồi từ bộ nhớ RAM sang Redis. | 25/09/2025 | 25/09/2025 |  |
-| 6   | - Đo lường sự khác biệt về hiệu năng API và tạo benchmark so sánh truy vấn PostgreSQL DB trực tiếp với hit cache Redis. | 26/09/2025 | 26/09/2025 |  |
+| 2   | - Chạy thực thể Redis ở local.<br>- Thêm các dependency Spring Boot Data Redis starter và cấu hình thuộc tính kết nối. | 27/05/2025 | 27/05/2025 | <https://redis.io/docs/> |
+| 3   | - Triển khai cache Redis cho API danh sách danh mục sản phẩm bằng `@Cacheable` và cấu hình xóa cache (`@CacheEvict`) khi cập nhật danh mục. | 28/05/2025 | 28/05/2025 | <https://spring.io/guides/gs/caching/> |
+| 4   | - Triển khai lưu trữ tạm thời mã OTP trong Redis, áp dụng TTL 5 phút cho việc xác thực mã. | 29/05/2025 | 29/05/2025 |  |
+| 5   | - Chuyển việc lưu trữ danh sách session hoạt động hoặc token bị thu hồi từ bộ nhớ RAM sang Redis. | 30/05/2025 | 30/05/2025 |  |
+| 6   | - Đo lường sự khác biệt về hiệu năng API và tạo benchmark so sánh truy vấn PostgreSQL DB trực tiếp với hit cache Redis. | 31/05/2025 | 31/05/2025 |  |
 
 
 ### Kết quả đạt được tuần 7:

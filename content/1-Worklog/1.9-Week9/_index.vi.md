@@ -16,11 +16,11 @@ pre: " <b> 1.9. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Thiết lập máy chủ RabbitMQ/Kafka local.<br>- Thêm cấu hình AMQP và thiết lập binding exchange/queue trong Spring Boot. | 06/10/2025 | 06/10/2025 | <https://www.rabbitmq.com/documentation.html> |
-| 3   | - Triển khai message publisher gửi tác vụ email tới hàng đợi khi có sự kiện (đăng ký người dùng, xác nhận đơn hàng). | 07/10/2025 | 07/10/2025 | <https://spring.io/guides/gs/messaging-rabbitmq/> |
-| 4   | - Viết email consumer bất đồng bộ để nhận tin nhắn từ hàng đợi và gửi email thực tế bằng JavaMailSender. | 08/10/2025 | 08/10/2025 |  |
-| 5   | - Thiết kế thực thể Voucher (giảm giá theo phần trăm và số tiền cố định) và lược đồ cơ sở dữ liệu. | 09/10/2025 | 09/10/2025 |  |
-| 6   | - Triển khai dịch vụ xác thực và tính toán giảm giá (kiểm tra hạn dùng, giá trị đơn tối thiểu, số lần sử dụng code). | 10/10/2025 | 10/10/2025 |  |
+| 2   | - Thiết lập máy chủ RabbitMQ/Kafka local.<br>- Thêm cấu hình AMQP và thiết lập binding exchange/queue trong Spring Boot. | 10/06/2025 | 10/06/2025 | <https://www.rabbitmq.com/documentation.html> |
+| 3   | - Triển khai message publisher gửi tác vụ email tới hàng đợi khi có sự kiện (đăng ký người dùng, xác nhận đơn hàng). | 11/06/2025 | 11/06/2025 | <https://spring.io/guides/gs/messaging-rabbitmq/> |
+| 4   | - Viết email consumer bất đồng bộ để nhận tin nhắn từ hàng đợi và gửi email thực tế bằng JavaMailSender. | 12/06/2025 | 12/06/2025 |  |
+| 5   | - Thiết kế thực thể Voucher (giảm giá theo phần trăm và số tiền cố định) và lược đồ cơ sở dữ liệu. | 13/06/2025 | 13/06/2025 |  |
+| 6   | - Triển khai dịch vụ xác thực và tính toán giảm giá (kiểm tra hạn dùng, giá trị đơn tối thiểu, số lần sử dụng code). | 14/06/2025 | 14/06/2025 |  |
 
 
 ### Kết quả đạt được tuần 9:

@@ -17,11 +17,11 @@ pre: " <b> 1.6. </b> "
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Implement stock attributes in ProductVariant.<br>- Setup optimistic and pessimistic locking mechanisms to prevent race conditions during high-traffic checkout. | 09/15/2025 | 09/15/2025 | <https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#locking> |
-| 3   | - Develop Order Creation flow that reserves inventory items temporarily upon checkout initiation. | 09/16/2025 | 09/16/2025 |  |
-| 4   | - Implement a Spring Boot Scheduler task to monitor pending orders and release reserved stock if payment is not completed within 15 minutes. | 09/17/2025 | 09/17/2025 | <https://spring.io/guides/gs/scheduling-tasks/> |
-| 5   | - Setup simulation logic for payment gateway integrations (successful and failed transactions). | 09/18/2025 | 09/18/2025 |  |
-| 6   | - Perform load tests to simulate simultaneous checkouts and verify inventory consistency. | 09/19/2025 | 09/19/2025 |  |
+| 2   | - Implement stock attributes in ProductVariant.<br>- Setup optimistic and pessimistic locking mechanisms to prevent race conditions during high-traffic checkout. | 20/05/2025 | 20/05/2025 | <https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#locking> |
+| 3   | - Develop Order Creation flow that reserves inventory items temporarily upon checkout initiation. | 21/05/2025 | 21/05/2025 |  |
+| 4   | - Implement a Spring Boot Scheduler task to monitor pending orders and release reserved stock if payment is not completed within 15 minutes. | 22/05/2025 | 22/05/2025 | <https://spring.io/guides/gs/scheduling-tasks/> |
+| 5   | - Setup simulation logic for payment gateway integrations (successful and failed transactions). | 23/05/2025 | 23/05/2025 |  |
+| 6   | - Perform load tests to simulate simultaneous checkouts and verify inventory consistency. | 24/05/2025 | 24/05/2025 |  |
 
 
 ### Week 6 Achievements:

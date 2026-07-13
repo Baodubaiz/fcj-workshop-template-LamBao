@@ -1,7 +1,7 @@
 ---
-title: "5.7. Resource Cleanup"
+title: "5.8. Resource Cleanup"
 date: 2026-07-06
-weight: 7
+weight: 8
 ---
 
 After completing your experiments and taking screenshots for the internship report, you must clean up the infrastructure resources initialized on AWS to avoid recurring costs on your personal account.

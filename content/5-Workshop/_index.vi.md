@@ -30,4 +30,5 @@ Thay vì chỉ đưa ra các bước "nhấp chuột" đơn thuần, tài liệu
 4. [Xác thực người dùng với Amazon Cognito (Bảo mật Danh tính)](5.4-Cognito-Auth/)
 5. [Tích hợp Trợ lý ảo AI Chatbot Amazon Bedrock (Điểm nhấn Dự án)](5.5-Bedrock-AI/)
 6. [Cấu hình máy chủ DigitalOcean & Cổng thanh toán PayOS (Hoàn tất Chu trình)](5.6-Non-AWS-Services/)
-7. [Dọn dẹp tài nguyên (Tối ưu Chi phí)](5.7-Cleanup/)
+7. [Demo Giao diện Ứng dụng Thực tế (Minh chứng Giao diện)](5.7-UI-Demo/)
+8. [Dọn dẹp tài nguyên (Tối ưu Chi phí)](5.8-Cleanup/)

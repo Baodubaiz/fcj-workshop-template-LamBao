@@ -275,6 +275,19 @@
                 href="http://localhost:1313/vi/5-workshop/5.3-s3-storage/"
                 />
   </url><url>
+    <loc>http://localhost:1313/vi/4-eventparticipated/4.3-event3/</loc>
+    <lastmod>2026-07-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/4-eventparticipated/4.3-event3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/4-eventparticipated/4.3-event3/"
+                />
+  </url><url>
     <loc>http://localhost:1313/vi/3-blogsposted/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -366,6 +379,19 @@
                 href="http://localhost:1313/vi/6-self-evaluation/"
                 />
   </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.7-ui-demo/</loc>
+    <lastmod>2026-07-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.7-ui-demo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.7-ui-demo/"
+                />
+  </url><url>
     <loc>http://localhost:1313/vi/5-workshop/5.7-cleanup/</loc>
     <lastmod>2026-07-06T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -390,6 +416,19 @@
                 rel="alternate"
                 hreflang="vi"
                 href="http://localhost:1313/vi/7-feedback/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.8-cleanup/</loc>
+    <lastmod>2026-07-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.8-cleanup/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.8-cleanup/"
                 />
   </url><url>
     <loc>http://localhost:1313/vi/categories/</loc>

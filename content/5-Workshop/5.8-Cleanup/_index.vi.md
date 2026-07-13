@@ -1,7 +1,7 @@
 ---
-title: "5.7. Dọn dẹp tài nguyên"
+title: "5.8. Dọn dẹp tài nguyên"
 date: 2026-07-06
-weight: 7
+weight: 8
 ---
 
 Sau khi hoàn thành thử nghiệm và chụp ảnh báo cáo, bạn cần thực hiện dọn dẹp các tài nguyên hạ tầng đã khởi tạo trên AWS để đảm bảo không phát sinh chi phí duy trì không đáng có trên tài khoản cá nhân.

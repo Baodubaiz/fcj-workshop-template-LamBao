@@ -15,21 +15,21 @@
     <title>5.2. Cấu hình Cơ sở dữ liệu RDS PostgreSQL :: Báo cáo thực tập</title>
 
     
-    <link href="/css/nucleus.css?1783664147" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1783664147" rel="stylesheet">
-    <link href="/css/hybrid.css?1783664147" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1783664147" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1783664147" rel="stylesheet">
-    <link href="/css/auto-complete.css?1783664147" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1783664147" rel="stylesheet">
-    <link href="/css/theme.css?1783664147" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1783664147" rel="stylesheet">
+    <link href="/css/nucleus.css?1783907301" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1783907301" rel="stylesheet">
+    <link href="/css/hybrid.css?1783907301" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1783907301" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1783907301" rel="stylesheet">
+    <link href="/css/auto-complete.css?1783907301" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1783907301" rel="stylesheet">
+    <link href="/css/theme.css?1783907301" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1783907301" rel="stylesheet">
     
-    <link href="/css/theme-workshop.css?1783664147" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1783907301" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1783664147"></script>
+    <script src="/js/jquery-3.3.1.min.js?1783907301"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -59,14 +59,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1783664147"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1783664147"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1783907301"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1783907301"></script>
 <script type="text/javascript">
     
         var baseurl = "http:\/\/localhost:1313\/\/vi";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1783664147"></script>
+<script type="text/javascript" src="/js/search.js?1783907301"></script>
  
   </div>
 
@@ -418,6 +418,24 @@
   </a>
    
 </li>
+    
+            
+<li
+  data-nav-id="/vi/4-eventparticipated/4.3-event3/"
+  title="Event 3"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/vi/4-eventparticipated/4.3-event3/">
+     <b> 4.3. </b> Event 3 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
      
   </ul>
   
@@ -550,16 +568,34 @@
     
             
 <li
-  data-nav-id="/vi/5-workshop/5.7-cleanup/"
-  title="5.7. Dọn dẹp tài nguyên"
+  data-nav-id="/vi/5-workshop/5.7-ui-demo/"
+  title="5.7. Demo Giao diện Ứng dụng Thực tế"
   class="dd-item 
         
         
         
         "
 >
-  <a href="/vi/5-workshop/5.7-cleanup/">
-    5.7. Dọn dẹp tài nguyên 
+  <a href="/vi/5-workshop/5.7-ui-demo/">
+    5.7. Demo Giao diện Ứng dụng Thực tế 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/5-workshop/5.8-cleanup/"
+  title="5.8. Dọn dẹp tài nguyên"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/vi/5-workshop/5.8-cleanup/">
+    5.8. Dọn dẹp tài nguyên 
     <i class="fas fa-check read-icon"></i>
     
   </a>
@@ -691,7 +727,7 @@
     <br>
     <b> Last Updated </b> <br>
     <i>
-        <font color=orange>10-07-2026</font>
+        <font color=orange>13-07-2026</font>
     </i>
 </left>
 <left>
@@ -813,7 +849,7 @@
 </li>
 <li>Nhấn <strong>Create database</strong> và đợi quá trình khởi tạo hoàn tất. Khi hoàn thành, bạn sẽ thấy thông tin Endpoint &amp; Port hiển thị:</li>
 </ol>
-<p><img src="/images/5.2_1.png" alt="Chi tiết Endpoint RDS"></p>
+<p><img src="/images/5-Workshop/rds_endpoint_details.png" alt="Chi tiết Endpoint RDS"></p>
 <hr>
 <h4 id="3-cấu-hình-security-group-bảo-mật-cho-database">3. Cấu hình Security Group bảo mật cho Database</h4>
 <p>Nhằm đảm bảo an toàn, chúng ta chỉ cho phép máy chủ ứng dụng Spring Boot kết nối tới RDS Database.</p>
@@ -822,12 +858,12 @@
 <li>Chọn <strong>Inbound rules</strong> (Quy tắc đầu vào) và thêm một quy tắc mới:
 <ul>
 <li><strong>Type</strong>: <code>PostgreSQL</code> (Port 5432)</li>
-<li><strong>Source</strong>: Chọn địa chỉ IP tĩnh hoặc Custom Security Group của App Server (DigitalOcean Server IP).</li>
+<li><strong>Source</strong>: Chọn địa chỉ IP Private của App Server đi qua đường truyền <strong>AWS Site-to-Site VPN</strong> (hoặc chọn IP tĩnh công cộng của máy chủ DigitalOcean nếu kết nối trực tiếp ngoài môi trường mạng nội bộ).</li>
 </ul>
 </li>
 </ol>
-<p><img src="/images/5.2_2.png" alt="Cấu hình Security Group cho RDS">
-<img src="/images/5.2_3.png" alt="Chi tiết Rule Security Group"></p>
+<p><img src="/images/5-Workshop/rds_security_groups.png" alt="Cấu hình Security Group cho RDS">
+<img src="/images/5-Workshop/novatech_db_security_group.png" alt="Chi tiết Rule Security Group"></p>
 <hr>
 <h4 id="4-cấu-hình-mã-nguồn-backend-kết-nối-database">4. Cấu hình mã nguồn Backend kết nối Database</h4>
 <p>Tại mã nguồn của dự án Spring Boot, thay vì khai báo cứng (hardcode) tài khoản/mật khẩu cơ sở dữ liệu trong file cấu hình, chúng ta sử dụng biến môi trường (Environment Variables) để bảo mật thông tin kết nối.</p>
@@ -1197,6 +1233,22 @@
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -1259,6 +1311,22 @@
                     
                         
                         
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -1392,19 +1460,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1783664147"></script>
-    <script src="/js/perfect-scrollbar.min.js?1783664147"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1783664147"></script>
-    <script src="/js/jquery.sticky.js?1783664147"></script>
-    <script src="/js/featherlight.min.js?1783664147"></script>
-    <script src="/js/highlight.pack.js?1783664147"></script>
+    <script src="/js/clipboard.min.js?1783907301"></script>
+    <script src="/js/perfect-scrollbar.min.js?1783907301"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1783907301"></script>
+    <script src="/js/jquery.sticky.js?1783907301"></script>
+    <script src="/js/featherlight.min.js?1783907301"></script>
+    <script src="/js/highlight.pack.js?1783907301"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1783664147"></script>
-    <script src="/js/learn.js?1783664147"></script>
-    <script src="/js/hugo-learn.js?1783664147"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1783907301"></script>
+    <script src="/js/learn.js?1783907301"></script>
+    <script src="/js/hugo-learn.js?1783907301"></script>
 
-    <link href="/mermaid/mermaid.css?1783664147" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1783664147"></script>
+    <link href="/mermaid/mermaid.css?1783907301" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1783907301"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
